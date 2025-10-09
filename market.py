@@ -4,7 +4,6 @@ from requests_html import HTMLSession
 import csv
 
 url = "https://barefootbuttons.com/product-category/version-1/"
-
 ses = HTMLSession()
 
 def get_links(url): 
@@ -54,3 +53,4 @@ try:
 
 except Exception as e: 
   print(f"Error: {e}")
+
