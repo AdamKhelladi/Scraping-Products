@@ -18,7 +18,7 @@ def get_product(link):
   req = ses.get(link)
 
   title = req.html.find("h1", first=True).full_text
-  price = req.html.find("span.woocommerce-Price-amount.amount bdi")[1].full_text # that's means we want the bdi tag that its after this class
+  price = req.html.find("span.woocommerce-Price-amount.amount bdi")[1].full_text # That's means we want the bdi tag that its after this class
   sku = req.html.find("span.sku", first=True).full_text
   category = req.html.find("a[rel=tag]", first=True).full_text
 
@@ -53,4 +53,5 @@ try:
 
 except Exception as e: 
   print(f"Error: {e}")
+
 
