@@ -49,7 +49,8 @@ try:
     wr.writeheader()
     wr.writerows(results)
 
-  print("File created.")
+  print("File Created.")
 
 except Exception as e: 
   print(f"Error: {e}")
+
