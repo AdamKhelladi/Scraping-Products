@@ -1,4 +1,4 @@
-# Scraping Market
+# Scraping Market website
 
 from requests_html import HTMLSession
 import csv
@@ -54,6 +54,7 @@ try:
 
 except Exception as e: 
   print(f"Error: {e}")
+
 
 
 
