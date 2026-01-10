@@ -3,7 +3,7 @@
 from requests_html import HTMLSession
 import csv
 
-# Website URL
+# Website URL 
 url = "https://barefootbuttons.com/product-category/version-1/"
 ses = HTMLSession()
 
@@ -54,3 +54,4 @@ try:
 
 except Exception as e: 
   print(f"Error: {e}")
+
