@@ -8,7 +8,7 @@ url = "https://barefootbuttons.com/product-category/version-1/"
 ses = HTMLSession()
 
 def get_links(url): 
-  req = ses.get(url) # Request
+  req = ses.get(url)
   
   items = req.html.find("div.product-small.box")
   links = [item.find("a", first=True).attrs["href"] for item in items]
@@ -54,3 +54,4 @@ try:
 
 except Exception as e: 
   print(f"Error: {e}")
+
