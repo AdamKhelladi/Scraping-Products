@@ -33,7 +33,6 @@ def get_product(link):
   print(product)
   return product
 
-
 products_number = len(get_links(url))
 print(f"Products Number: {products_number}")
 
@@ -54,3 +53,4 @@ try:
 
 except Exception as e: 
   print(f"Error: {e}")
+
