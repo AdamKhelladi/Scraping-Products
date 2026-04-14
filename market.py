@@ -1,7 +1,6 @@
 # Scraping Market Website (Fetching important data)
 
 from requests_html import HTMLSession
-
 import csv
 
 # Website URL
