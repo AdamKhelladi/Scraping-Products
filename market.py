@@ -2,6 +2,7 @@
 
 from requests_html import HTMLSession
 import csv
+import panda
 
 # Website URL
 url = "https://barefootbuttons.com/product-category/version-1/"
